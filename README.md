@@ -1,5 +1,18 @@
 # ONC_JCI_Insight
 
-This is a data depository for the following publication:
+<h2>Summary</h2>
+Biopsy provides direct access to tissues that reflect disease pathology, yet the brain remains largely inaccessible due to ethical and practical constraints. The olfactory neuroepithelium (OE), accessible via nasal biopsy, offers a feasible alternative by yielding olfactory neuronal cells (ONCs) from living individuals. The OE contains olfactory neurons and their progenitors, which retain the capacity to generate mature neurons throughout life, making it a valuable biospecimen for studying neuronal molecular mechanisms underlying brain disorders. Compared with postmortem brain tissue and induced pluripotent stem cell (iPSC)-derived neurons, ONCs offer several advantages. First, the OE tissue regenerates quickly, enabling repeated biopsies that are particularly valuable in clinical trials for assessing treatment effects on neuronal molecular targets and correlating molecular changes with clinical outcomes. At Johns Hopkins, the Institutional Review Board (IRB) has approved repeated biopsies with a minimum interval of six weeks. Such repeated sampling may also provide mechanistic insight into dynamic changes along the disease trajectory. Second, ONCs can be more readily scaled for large population studies at lower cost and with shorter preparation time compared to iPSC-derived neurons, enhancing their translational potential. Third, ONCs are homogeneours, suitable for biochemical, pharmacological, and functional studies that require homogeneous cell populations. Moreover, recent advances in non-invasive collection methods, such as nasal brush swabs, hold further promise for broad clinical application. Here, we performed single-cell RNA sequencing (scRNA-seq) on ONCs obtained from healthy individuals to characterize their molecular proflies. Our study showed that ONCs exhibit pan-neuronal molecular signatures, distinct from glial cells, resembling developing neurons. 
 
-Yang K, Ishizuka K, Lam M, Shang G, Kung J, Sun J, Pei H, Walker E, Koh G, Narita Z, Hayashida A, Ayala-Grosso CA, Chua JJE, Chima-Anyanka O, Lema YY, Heffron E, Loudd H, Schumacher M, Kamiya A, Ma M, Younes L, Lane AP, Sawa A. Human olfactory neuronal cells through nasal biopsy: molecular characterization and utility in brain science. JCI Insight. (In press).
+<h2>Experimental protocol</h2>
+Olfactory neuroepithelium (OE) tissue was obtained via nasal biopsy from healthy individuals. Biopsy samples were dissociated into single-cell suspensions. Cells were sorted into 1.5 mL Eppendorf tubes and counted under a microscope to determine cell concentration prior to library preparation. Single-cell 3′ libraries were prepared using the 10x Genomics Chromium platform. Between 10,000 and 100,000 cells were loaded per chip position using the Chromium Single Cell 3′ Library, Gel Bead & Multiplex Kit, and Chip Kit (10x Genomics; V2 barcoding chemistry), following the manufacturer's protocol. Each sample was processed individually on separate chip positions without pooling. Libraries were sequenced on an Illumina NovaSeq 6000 platform. Raw sequencing reads were processed using <i>Cell Ranger</i> to align reads to the human genome (hg19) and generate gene–cell count matrices. 
+
+<h2>Data</h2>
+
+- **ONC1**: scRNA-seq of ONCs from a 19-year-old African American male donor
+- **ONC2**: scRNA-seq of ONCs from a 23-year-old African American male donor
+- **ONC3**: scRNA-seq of ONCs from a 26-year-old African American male donor
+
+<h2>Publication</h2>
+<b>Please cite the following publication when using these data</b>
+
+Yang K, Ishizuka K, Lam M, Shang G, Kung J, Sun J, Pei H, Walker E, Koh G, Narita Z, Hayashida A, Ayala-Grosso CA, Chua JJE, Chima-Anyanka O, Lema YY, Heffron E, Loudd H, Schumacher M, Kamiya A, Ma M, Younes L, Lane AP, Sawa A. Human olfactory neuronal cells through nasal biopsy: molecular characterization and utility in brain science. ***JCI Insight***. (In press).
